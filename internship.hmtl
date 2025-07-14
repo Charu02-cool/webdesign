@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vault of Codes - Internships</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(-45deg, #f093fb, #f5576c, #4facfe, #43e97b);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .logo {
+      margin-bottom: 10px;
+    }
+
+    .logo img {
+      width: 70px;
+    }
+
+    .title {
+      font-size: 36px;
+      margin: 10px 0 30px;
+      font-weight: 600;
+    }
+
+    .internship-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      padding: 20px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .card ul {
+      list-style: none;
+      text-align: left;
+      font-size: 14px;
+      color: #eee;
+      margin-bottom: 20px;
+    }
+
+    .card ul li {
+      margin-bottom: 6px;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      font-weight: 600;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #0072ff, #00c6ff);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://vaultofcodes.in/static/media/logo.690ced58.svg" alt="Vault of Codes Logo">
+  </div>
+  <h2 class="title">Internships</h2>
+
+  <div class="internship-container">
+    <div class="card">
+      <h3>Web Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>App Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Python Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Java Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+   
+ 
+
